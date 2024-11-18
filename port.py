@@ -38,7 +38,7 @@ def scan_port(target, port):
     return None
 
 def main():
-    target = input("Apa nama web yang ingin kamu melihat port terbuaknya? :")
+    target = input("Apa nama web untuk membuka port? ")
     try:
         target_ip = socket.gethostbyname(target)
         print(f"\nScanning {target} ({target_ip})...\n")
